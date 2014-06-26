@@ -138,7 +138,7 @@
     float energy = [pair totalKineticEnergy];
     
     // if energy is large enough, remove the seal
-    if (energy > 5000.f) {
+    if (energy > 1.f) { // change f back to 5000
         [[_physicsNode space] addPostStepBlock:^{
             [self sealRemoved:nodeA];
         } key:nodeA];
