@@ -10,14 +10,8 @@
 
 @implementation Penguin
 
-- (id)init {
-    self = [super init];
-    
-    if (self) {
-        CCLOG(@"Penguin created");
-    }
-    
-    return self;
+- (void)play {
+    CCLOG(@"play button pressed");
 }
 
 @end
