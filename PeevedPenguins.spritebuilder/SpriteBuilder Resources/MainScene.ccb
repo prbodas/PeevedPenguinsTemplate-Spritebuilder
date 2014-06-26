@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>7</integer>
+	<integer>11</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -43,7 +43,7 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>4</integer>
+				<integer>8</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -73,11 +73,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.0</real>
+							<real>0.0</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -87,8 +87,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.0</real>
+							<real>0.0</real>
 						</array>
 					</dict>
 					<dict>
@@ -98,8 +98,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1.9770059585571289</real>
-							<real>1.9632503986358643</real>
+							<real>1</real>
+							<real>1</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -132,7 +132,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>6</integer>
+				<integer>10</integer>
 				<key>baseClass</key>
 				<string>CCButton</string>
 				<key>children</key>
@@ -162,8 +162,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.4857279360294342</real>
-							<real>0.29311436414718628</real>
+							<real>0.47843727469444275</real>
+							<real>0.28307542204856873</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -177,7 +177,7 @@
 						<key>value</key>
 						<array>
 							<real>0.5</real>
-							<real>0.5186341404914856</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -187,8 +187,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1.5832474231719971</real>
-							<real>1.1909147500991821</real>
+							<real>1</real>
+							<real>1</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -211,8 +211,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>100</real>
-							<real>100</real>
+							<real>167</real>
+							<real>152</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -268,7 +268,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>PeevedPenguinsAssets/button.png</string>
+							<string>ccbResources/ccbButtonHighlighted.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -527,6 +527,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
