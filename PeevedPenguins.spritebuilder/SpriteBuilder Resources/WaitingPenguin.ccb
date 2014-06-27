@@ -2230,7 +2230,7 @@
 			<key>allowsRotation</key>
 			<true/>
 			<key>bodyShape</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>collisionCategories</key>
 			<array/>
 			<key>collisionMask</key>
@@ -2238,7 +2238,7 @@
 			<key>collisionType</key>
 			<string></string>
 			<key>cornerRadius</key>
-			<real>0.0</real>
+			<real>18.5</real>
 			<key>density</key>
 			<real>1</real>
 			<key>dynamic</key>
@@ -2250,43 +2250,12 @@
 			<key>points</key>
 			<array>
 				<array>
-					<real>0.0</real>
-					<real>0.0</real>
-				</array>
-				<array>
-					<real>0.0</real>
-					<real>37</real>
-				</array>
-				<array>
-					<real>37</real>
-					<real>37</real>
-				</array>
-				<array>
-					<real>37</real>
-					<real>0.0</real>
+					<real>18.5</real>
+					<real>18.5</real>
 				</array>
 			</array>
 			<key>polygons</key>
-			<array>
-				<array>
-					<array>
-						<real>37</real>
-						<real>0.0</real>
-					</array>
-					<array>
-						<real>37</real>
-						<real>37</real>
-					</array>
-					<array>
-						<real>0.0</real>
-						<real>37</real>
-					</array>
-					<array>
-						<real>0.0</real>
-						<real>0.0</real>
-					</array>
-				</array>
-			</array>
+			<array/>
 		</dict>
 		<key>properties</key>
 		<array>
@@ -2406,7 +2375,7 @@
 	<array>
 		<dict>
 			<key>autoPlay</key>
-			<true/>
+			<false/>
 			<key>callbackChannel</key>
 			<dict>
 				<key>keyframes</key>
@@ -2419,9 +2388,9 @@
 			<key>length</key>
 			<real>4</real>
 			<key>name</key>
-			<string>Default Timeline</string>
+			<string>BlinkAndJump</string>
 			<key>offset</key>
-			<real>1.9942708015441895</real>
+			<real>1.6484375</real>
 			<key>position</key>
 			<real>4</real>
 			<key>resolution</key>
@@ -2430,6 +2399,42 @@
 			<real>128</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
+			<key>soundChannel</key>
+			<dict>
+				<key>isExpanded</key>
+				<false/>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>autoPlay</key>
+			<true/>
+			<key>callbackChannel</key>
+			<dict>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>12</integer>
+			</dict>
+			<key>chainedSequenceId</key>
+			<integer>-1</integer>
+			<key>length</key>
+			<real>10</real>
+			<key>name</key>
+			<string>Untitled Timeline</string>
+			<key>offset</key>
+			<real>0.0</real>
+			<key>position</key>
+			<real>0.0</real>
+			<key>resolution</key>
+			<real>30</real>
+			<key>scale</key>
+			<real>128</real>
+			<key>sequenceId</key>
+			<integer>1</integer>
 			<key>soundChannel</key>
 			<dict>
 				<key>isExpanded</key>
